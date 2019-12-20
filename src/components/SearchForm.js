@@ -18,7 +18,7 @@ export default function SearchForm() {
     });
   }, [query]);
 
-  const HandleInputChange = event => {
+  const handleInputChange = event => {
     setQuery(event.target.value);
   };
  
